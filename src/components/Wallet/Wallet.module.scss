@@ -1,0 +1,47 @@
+.Wallet {
+  display: flex;
+  height: 100%;
+  > * {
+    padding: 2rem;
+  }
+}
+.MainInfo {
+  height: 100%;
+}
+.SubInfo {
+  height: 100%;
+}
+
+.Cards {
+  height: 40%;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Assets {
+  height: auto;
+}
+.Actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  button {
+    border-radius: 50%;
+    border-width: 1px;
+    margin-bottom: 5px;
+  }
+}
+
+.AssetList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.AssetItem {
+  border-bottom-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}

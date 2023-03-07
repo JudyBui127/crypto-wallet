@@ -1,0 +1,74 @@
+{
+  "name": "btc-wallet-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@ethersproject/providers": "^5.5.3",
+    "@metamask/jazzicon": "^2.0.0",
+    "@metamask/logo": "^3.1.1",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.4.0",
+    "@mui/styled-engine": "^5.4.2",
+    "@mui/styles": "^5.4.2",
+    "@reduxjs/toolkit": "^1.7.2",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.14",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@web3-react/core": "^6.1.9",
+    "axios": "^0.25.0",
+    "bip32": "^3.0.1",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^3.3.2",
+    "crypto-js": "^4.1.1",
+    "ecpair": "^2.0.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^3.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.49.7",
+    "styled-components": "^5.3.3",
+    "tiny-secp256k1": "^2.1.0",
+    "typescript": "^4.5.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.3"
+  }
+}

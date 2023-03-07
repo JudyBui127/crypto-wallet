@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet {
+  width: 80%;
+  height: 80%;
+  background: #444851;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.address {
+  width: 80%;
+  margin-top: 32px !important;
+  color: whitesmoke;
+}
+.History {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.TxTable {
+  width: 100%;
+  height: 100%;
+}
+.TxRow {
+  width: 100%;
+  border-bottom: 1px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.confirming {
+  display: flex;
+  margin-left: 30%;
+}

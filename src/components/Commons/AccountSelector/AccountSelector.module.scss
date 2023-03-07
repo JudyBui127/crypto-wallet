@@ -1,0 +1,26 @@
+.ChainButton {
+  padding: 0 16px !important;
+  border-radius: 40px !important;
+  font-weight: bolder;
+  height: 46px;
+  text-transform: capitalize !important;
+}
+.Container {
+  position: relative;
+}
+.Menu {
+  ul {
+    width: 200px;
+  }
+  li {
+    width: 200px;
+  }
+  #title {
+    font-style: bolder;
+  }
+}
+.Icon {
+  margin: 5px 12px 5px 5px;
+  display: flex;
+  align-items: center;
+}
